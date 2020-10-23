@@ -7,6 +7,6 @@ def run_guessing_game
   
   #compare input to rand number
   
-  #prints either "You guessed the correct number!", 
+  #if match, prints "You guessed the correct number!", 
   
 end  
