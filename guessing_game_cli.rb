@@ -7,9 +7,9 @@ def run_guessing_game
   binding.pry
   if a.to_s == b
     puts "You guessed the correct number!"
-  elsif a != b
-    puts "Sorry! The computer guessed #{a}."
   elsif b == "exit"
     puts "Goodbye!"
+  elsif a != b
+    puts "Sorry! The computer guessed #{a}."
   end
 end  
