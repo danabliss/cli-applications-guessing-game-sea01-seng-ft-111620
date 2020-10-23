@@ -2,7 +2,7 @@ def run_guessing_game
   a = rand(1...6)
   puts "Guess a number between 1 and 6."
   b = gets.chomp
-  if a == b
+  if a = b
     puts "You guessed the correct number!"
   elsif a != b
     puts "Sorry! The computer guessed #{a}."
